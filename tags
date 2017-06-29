@@ -1,0 +1,441 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AI_ADDRCONFIG	libmosquitto/net_mosq.c	/^#define AI_ADDRCONFIG /;"	d	file:
+AtLeastOnce	MQTTKit.h	/^    AtLeastOnce,$/;"	e	enum:NSUInteger
+AtMostOnce	MQTTKit.h	/^    AtMostOnce,$/;"	e	enum:NSUInteger
+COMPAT_CLOSE	libmosquitto/net_mosq.h	/^#  define COMPAT_CLOSE(/;"	d
+COMPAT_ECONNRESET	libmosquitto/net_mosq.h	/^#  define COMPAT_ECONNRESET /;"	d
+COMPAT_EWOULDBLOCK	libmosquitto/net_mosq.h	/^#  define COMPAT_EWOULDBLOCK /;"	d
+CONNACK	libmosquitto/mqtt3_protocol.h	/^#define CONNACK /;"	d
+CONNACK_ACCEPTED	libmosquitto/mqtt3_protocol.h	/^#define CONNACK_ACCEPTED /;"	d
+CONNACK_REFUSED_BAD_USERNAME_PASSWORD	libmosquitto/mqtt3_protocol.h	/^#define CONNACK_REFUSED_BAD_USERNAME_PASSWORD /;"	d
+CONNACK_REFUSED_IDENTIFIER_REJECTED	libmosquitto/mqtt3_protocol.h	/^#define CONNACK_REFUSED_IDENTIFIER_REJECTED /;"	d
+CONNACK_REFUSED_NOT_AUTHORIZED	libmosquitto/mqtt3_protocol.h	/^#define CONNACK_REFUSED_NOT_AUTHORIZED /;"	d
+CONNACK_REFUSED_PROTOCOL_VERSION	libmosquitto/mqtt3_protocol.h	/^#define CONNACK_REFUSED_PROTOCOL_VERSION /;"	d
+CONNACK_REFUSED_SERVER_UNAVAILABLE	libmosquitto/mqtt3_protocol.h	/^#define CONNACK_REFUSED_SERVER_UNAVAILABLE /;"	d
+CONNECT	libmosquitto/mqtt3_protocol.h	/^#define CONNECT /;"	d
+CRData	GCDAsyncSocket.h	/^+ (NSData *)CRData;     \/\/ 0x0D$/;"	v
+CRLFData	GCDAsyncSocket.h	/^+ (NSData *)CRLFData;   \/\/ 0x0D0A$/;"	v
+ConnectionAccepted	MQTTKit.h	/^    ConnectionAccepted,$/;"	e	enum:NSUInteger
+ConnectionRefusedBadUserNameOrPassword	MQTTKit.h	/^    ConnectionRefusedBadUserNameOrPassword,$/;"	e	enum:NSUInteger
+ConnectionRefusedIdentiferRejected	MQTTKit.h	/^    ConnectionRefusedIdentiferRejected,$/;"	e	enum:NSUInteger
+ConnectionRefusedNotAuthorized	MQTTKit.h	/^    ConnectionRefusedNotAuthorized$/;"	e	enum:NSUInteger
+ConnectionRefusedServerUnavailable	MQTTKit.h	/^    ConnectionRefusedServerUnavailable,$/;"	e	enum:NSUInteger
+ConnectionRefusedUnacceptableProtocolVersion	MQTTKit.h	/^    ConnectionRefusedUnacceptableProtocolVersion,$/;"	e	enum:NSUInteger
+DISCONNECT	libmosquitto/mqtt3_protocol.h	/^#define DISCONNECT /;"	d
+ExactlyOnce	MQTTKit.h	/^    ExactlyOnce$/;"	e	enum:NSUInteger
+GCDAsyncSocketLoggingContext	GCDAsyncSocket.h	/^#define GCDAsyncSocketLoggingContext /;"	d
+GCDAsyncSocketSSLCertificates	GCDAsyncSocket.h	/^#define GCDAsyncSocketSSLCertificates /;"	d
+GCDAsyncSocketSSLIsServer	GCDAsyncSocket.h	/^#define GCDAsyncSocketSSLIsServer /;"	d
+GCDAsyncSocketSSLPeerName	GCDAsyncSocket.h	/^#define GCDAsyncSocketSSLPeerName /;"	d
+HAVE_PSELECT	libmosquitto/mosquitto.c	/^#define HAVE_PSELECT$/;"	d	file:
+INVALID_SOCKET	libmosquitto/net_mosq.h	/^#define INVALID_SOCKET /;"	d
+IPv4Enabled	GCDAsyncSocket.h	/^@property (atomic, assign, readwrite, getter=isIPv4Enabled) BOOL IPv4Enabled;$/;"	v
+IPv4PreferredOverIPv6	GCDAsyncSocket.h	/^@property (atomic, assign, readwrite, getter=isIPv4PreferredOverIPv6) BOOL IPv4PreferredOverIPv6;$/;"	v
+IPv6Enabled	GCDAsyncSocket.h	/^@property (atomic, assign, readwrite, getter=isIPv6Enabled) BOOL IPv6Enabled;$/;"	v
+LFData	GCDAsyncSocket.h	/^+ (NSData *)LFData;     \/\/ 0x0A$/;"	v
+LIBMOSQUITTO_MAJOR	libmosquitto/mosquitto.h	/^#define LIBMOSQUITTO_MAJOR /;"	d
+LIBMOSQUITTO_MINOR	libmosquitto/mosquitto.h	/^#define LIBMOSQUITTO_MINOR /;"	d
+LIBMOSQUITTO_REVISION	libmosquitto/mosquitto.h	/^#define LIBMOSQUITTO_REVISION /;"	d
+LIBMOSQUITTO_VERSION_NUMBER	libmosquitto/mosquitto.h	/^#define LIBMOSQUITTO_VERSION_NUMBER /;"	d
+MAX_RECONNECT_COUNT	NetworkingCommonHeader.h	/^#define MAX_RECONNECT_COUNT /;"	d
+MOSQ_ERR_ACL_DENIED	libmosquitto/mosquitto.h	/^	MOSQ_ERR_ACL_DENIED = 12,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_AUTH	libmosquitto/mosquitto.h	/^	MOSQ_ERR_AUTH = 11,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_CONN_LOST	libmosquitto/mosquitto.h	/^	MOSQ_ERR_CONN_LOST = 7,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_CONN_PENDING	libmosquitto/mosquitto.h	/^	MOSQ_ERR_CONN_PENDING = -1,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_CONN_REFUSED	libmosquitto/mosquitto.h	/^	MOSQ_ERR_CONN_REFUSED = 5,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_EAI	libmosquitto/mosquitto.h	/^	MOSQ_ERR_EAI = 15$/;"	e	enum:mosq_err_t
+MOSQ_ERR_ERRNO	libmosquitto/mosquitto.h	/^	MOSQ_ERR_ERRNO = 14,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_INVAL	libmosquitto/mosquitto.h	/^	MOSQ_ERR_INVAL = 3,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_NOMEM	libmosquitto/mosquitto.h	/^	MOSQ_ERR_NOMEM = 1,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_NOT_FOUND	libmosquitto/mosquitto.h	/^	MOSQ_ERR_NOT_FOUND = 6,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_NOT_SUPPORTED	libmosquitto/mosquitto.h	/^	MOSQ_ERR_NOT_SUPPORTED = 10,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_NO_CONN	libmosquitto/mosquitto.h	/^	MOSQ_ERR_NO_CONN = 4,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_PAYLOAD_SIZE	libmosquitto/mosquitto.h	/^	MOSQ_ERR_PAYLOAD_SIZE = 9,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_PROTOCOL	libmosquitto/mosquitto.h	/^	MOSQ_ERR_PROTOCOL = 2,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_SUCCESS	libmosquitto/mosquitto.h	/^	MOSQ_ERR_SUCCESS = 0,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_TLS	libmosquitto/mosquitto.h	/^	MOSQ_ERR_TLS = 8,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_UNKNOWN	libmosquitto/mosquitto.h	/^	MOSQ_ERR_UNKNOWN = 13,$/;"	e	enum:mosq_err_t
+MOSQ_LOG_ALL	libmosquitto/mosquitto.h	/^#define MOSQ_LOG_ALL /;"	d
+MOSQ_LOG_DEBUG	libmosquitto/mosquitto.h	/^#define MOSQ_LOG_DEBUG /;"	d
+MOSQ_LOG_ERR	libmosquitto/mosquitto.h	/^#define MOSQ_LOG_ERR /;"	d
+MOSQ_LOG_INFO	libmosquitto/mosquitto.h	/^#define MOSQ_LOG_INFO /;"	d
+MOSQ_LOG_NONE	libmosquitto/mosquitto.h	/^#define MOSQ_LOG_NONE /;"	d
+MOSQ_LOG_NOTICE	libmosquitto/mosquitto.h	/^#define MOSQ_LOG_NOTICE /;"	d
+MOSQ_LOG_SUBSCRIBE	libmosquitto/mosquitto.h	/^#define MOSQ_LOG_SUBSCRIBE /;"	d
+MOSQ_LOG_UNSUBSCRIBE	libmosquitto/mosquitto.h	/^#define MOSQ_LOG_UNSUBSCRIBE /;"	d
+MOSQ_LOG_WARNING	libmosquitto/mosquitto.h	/^#define MOSQ_LOG_WARNING /;"	d
+MOSQ_LSB	libmosquitto/net_mosq.h	/^#define MOSQ_LSB(/;"	d
+MOSQ_MQTT_ID_MAX_LENGTH	libmosquitto/mosquitto.h	/^#define MOSQ_MQTT_ID_MAX_LENGTH /;"	d
+MOSQ_MSB	libmosquitto/net_mosq.h	/^#define MOSQ_MSB(/;"	d
+MQTTConnectionReturnCode	MQTTKit.h	/^} MQTTConnectionReturnCode;$/;"	t	typeref:enum:NSUInteger
+MQTTQualityOfService	MQTTKit.h	/^} MQTTQualityOfService;$/;"	t	typeref:enum:NSUInteger
+MQTT_MAX_PAYLOAD	libmosquitto/mqtt3_protocol.h	/^#define MQTT_MAX_PAYLOAD /;"	d
+NSUInteger	MQTTKit.h	/^typedef enum MQTTConnectionReturnCode : NSUInteger {$/;"	g
+NSUInteger	MQTTKit.h	/^typedef enum MQTTQualityOfService : NSUInteger {$/;"	g
+NS_ENUM	GCDAsyncSocket.h	/^typedef NS_ENUM(NSInteger, GCDAsyncSocketError) {$/;"	f
+NS_ENUM	GCDAsyncUdpSocket.h	/^typedef NS_ENUM(NSInteger, GCDAsyncUdpSocketError) {$/;"	f
+NetworkingCommonHeader_h	NetworkingCommonHeader.h	/^#define NetworkingCommonHeader_h$/;"	d
+PINGREQ	libmosquitto/mqtt3_protocol.h	/^#define PINGREQ /;"	d
+PINGRESP	libmosquitto/mqtt3_protocol.h	/^#define PINGRESP /;"	d
+PROTOCOL_NAME	libmosquitto/mqtt3_protocol.h	/^#define PROTOCOL_NAME /;"	d
+PROTOCOL_VERSION	libmosquitto/mqtt3_protocol.h	/^#define PROTOCOL_VERSION /;"	d
+PUBACK	libmosquitto/mqtt3_protocol.h	/^#define PUBACK /;"	d
+PUBCOMP	libmosquitto/mqtt3_protocol.h	/^#define PUBCOMP /;"	d
+PUBLISH	libmosquitto/mqtt3_protocol.h	/^#define PUBLISH /;"	d
+PUBREC	libmosquitto/mqtt3_protocol.h	/^#define PUBREC /;"	d
+PUBREL	libmosquitto/mqtt3_protocol.h	/^#define PUBREL /;"	d
+REAL_WITH_MEMORY_TRACKING	libmosquitto/memory_mosq.h	/^#define REAL_WITH_MEMORY_TRACKING$/;"	d
+REAL_WITH_TLS_PSK	libmosquitto/tls_mosq.h	/^#    define REAL_WITH_TLS_PSK$/;"	d
+SERVER_ADDR	NetworkingCommonHeader.h	/^#define SERVER_ADDR /;"	d
+SERVER_PORT	NetworkingCommonHeader.h	/^#define SERVER_PORT /;"	d
+SUBACK	libmosquitto/mqtt3_protocol.h	/^#define SUBACK /;"	d
+SUBSCRIBE	libmosquitto/mqtt3_protocol.h	/^#define SUBSCRIBE /;"	d
+UNSUBACK	libmosquitto/mqtt3_protocol.h	/^#define UNSUBACK /;"	d
+UNSUBSCRIBE	libmosquitto/mqtt3_protocol.h	/^#define UNSUBSCRIBE /;"	d
+ZeroData	GCDAsyncSocket.h	/^+ (NSData *)ZeroData;   \/\/ 0x00$/;"	v
+_DUMMYPTHREAD_H_	libmosquitto/dummypthread.h	/^#define _DUMMYPTHREAD_H_$/;"	d
+_LOGGING_MOSQ_H_	libmosquitto/logging_mosq.h	/^#define _LOGGING_MOSQ_H_$/;"	d
+_MEMORY_MOSQ_H_	libmosquitto/memory_mosq.h	/^#define _MEMORY_MOSQ_H_$/;"	d
+_MESSAGES_MOSQ_H_	libmosquitto/messages_mosq.h	/^#define _MESSAGES_MOSQ_H_$/;"	d
+_MOSQUITTO_H_	libmosquitto/mosquitto.h	/^#define _MOSQUITTO_H_$/;"	d
+_MOSQUITTO_INTERNAL_H_	libmosquitto/mosquitto_internal.h	/^#define _MOSQUITTO_INTERNAL_H_$/;"	d
+_MQTT3_PROTOCOL_H_	libmosquitto/mqtt3_protocol.h	/^#define _MQTT3_PROTOCOL_H_$/;"	d
+_NET_MOSQ_H_	libmosquitto/net_mosq.h	/^#define _NET_MOSQ_H_$/;"	d
+_READ_HANDLE_H_	libmosquitto/read_handle.h	/^#define _READ_HANDLE_H_$/;"	d
+_SEND_MOSQ_H_	libmosquitto/send_mosq.h	/^#define _SEND_MOSQ_H_$/;"	d
+_TIME_MOSQ_H_	libmosquitto/time_mosq.h	/^#define _TIME_MOSQ_H_$/;"	d
+_TLS_MOSQ_H_	libmosquitto/tls_mosq.h	/^#define _TLS_MOSQ_H_$/;"	d
+_UTIL_MOSQ_H_	libmosquitto/util_mosq.h	/^#define _UTIL_MOSQ_H_$/;"	d
+_WILL_MOSQ_H_	libmosquitto/will_mosq.h	/^#define _WILL_MOSQ_H_$/;"	d
+_WIN32_WINNT	libmosquitto/time_mosq.c	/^#  define _WIN32_WINNT /;"	d	file:
+_mosquitto_calloc	libmosquitto/memory_mosq.c	/^void *_mosquitto_calloc(size_t nmemb, size_t size)$/;"	f
+_mosquitto_check_keepalive	libmosquitto/util_mosq.c	/^void _mosquitto_check_keepalive(struct mosquitto *mosq)$/;"	f
+_mosquitto_connect_init	libmosquitto/mosquitto.c	/^static int _mosquitto_connect_init(struct mosquitto *mosq, const char *host, int port, int keepalive, const char *bind_address)$/;"	f	file:
+_mosquitto_destroy	libmosquitto/mosquitto.c	/^void _mosquitto_destroy(struct mosquitto *mosq)$/;"	f
+_mosquitto_fix_sub_topic	libmosquitto/util_mosq.c	/^int _mosquitto_fix_sub_topic(char **subtopic)$/;"	f
+_mosquitto_fopen	libmosquitto/util_mosq.c	/^FILE *_mosquitto_fopen(const char *path, const char *mode)$/;"	f
+_mosquitto_free	libmosquitto/memory_mosq.c	/^void _mosquitto_free(void *mem)$/;"	f
+_mosquitto_handle_connack	libmosquitto/read_handle_client.c	/^int _mosquitto_handle_connack(struct mosquitto *mosq)$/;"	f
+_mosquitto_handle_pingreq	libmosquitto/read_handle_shared.c	/^int _mosquitto_handle_pingreq(struct mosquitto *mosq)$/;"	f
+_mosquitto_handle_pingresp	libmosquitto/read_handle_shared.c	/^int _mosquitto_handle_pingresp(struct mosquitto *mosq)$/;"	f
+_mosquitto_handle_pubackcomp	libmosquitto/read_handle_shared.c	/^int _mosquitto_handle_pubackcomp(struct mosquitto *mosq, const char *type)$/;"	f
+_mosquitto_handle_publish	libmosquitto/read_handle.c	/^int _mosquitto_handle_publish(struct mosquitto *mosq)$/;"	f
+_mosquitto_handle_pubrec	libmosquitto/read_handle_shared.c	/^int _mosquitto_handle_pubrec(struct mosquitto *mosq)$/;"	f
+_mosquitto_handle_pubrel	libmosquitto/read_handle_shared.c	/^int _mosquitto_handle_pubrel(struct mosquitto_db *db, struct mosquitto *mosq)$/;"	f
+_mosquitto_handle_suback	libmosquitto/read_handle_shared.c	/^int _mosquitto_handle_suback(struct mosquitto *mosq)$/;"	f
+_mosquitto_handle_unsuback	libmosquitto/read_handle_shared.c	/^int _mosquitto_handle_unsuback(struct mosquitto *mosq)$/;"	f
+_mosquitto_hex2bin	libmosquitto/util_mosq.c	/^int _mosquitto_hex2bin(const char *hex, unsigned char *bin, int bin_max_len)$/;"	f
+_mosquitto_log_printf	libmosquitto/logging_mosq.c	/^int _mosquitto_log_printf(struct mosquitto *mosq, int priority, const char *fmt, ...)$/;"	f
+_mosquitto_loop_rc_handle	libmosquitto/mosquitto.c	/^static int _mosquitto_loop_rc_handle(struct mosquitto *mosq, int rc)$/;"	f	file:
+_mosquitto_malloc	libmosquitto/memory_mosq.c	/^void *_mosquitto_malloc(size_t size)$/;"	f
+_mosquitto_max_memory_used	libmosquitto/memory_mosq.c	/^unsigned long _mosquitto_max_memory_used(void)$/;"	f
+_mosquitto_memory_used	libmosquitto/memory_mosq.c	/^unsigned long _mosquitto_memory_used(void)$/;"	f
+_mosquitto_message_cleanup	libmosquitto/messages_mosq.c	/^void _mosquitto_message_cleanup(struct mosquitto_message_all **message)$/;"	f
+_mosquitto_message_cleanup_all	libmosquitto/messages_mosq.c	/^void _mosquitto_message_cleanup_all(struct mosquitto *mosq)$/;"	f
+_mosquitto_message_delete	libmosquitto/messages_mosq.c	/^int _mosquitto_message_delete(struct mosquitto *mosq, uint16_t mid, enum mosquitto_msg_direction dir)$/;"	f
+_mosquitto_message_queue	libmosquitto/messages_mosq.c	/^void _mosquitto_message_queue(struct mosquitto *mosq, struct mosquitto_message_all *message, bool doinc)$/;"	f
+_mosquitto_message_remove	libmosquitto/messages_mosq.c	/^int _mosquitto_message_remove(struct mosquitto *mosq, uint16_t mid, enum mosquitto_msg_direction dir, struct mosquitto_message_all **message)$/;"	f
+_mosquitto_message_retry_check	libmosquitto/messages_mosq.c	/^void _mosquitto_message_retry_check(struct mosquitto *mosq)$/;"	f
+_mosquitto_message_update	libmosquitto/messages_mosq.c	/^int _mosquitto_message_update(struct mosquitto *mosq, uint16_t mid, enum mosquitto_msg_direction dir, enum mosquitto_msg_state state)$/;"	f
+_mosquitto_messages_reconnect_reset	libmosquitto/messages_mosq.c	/^void _mosquitto_messages_reconnect_reset(struct mosquitto *mosq)$/;"	f
+_mosquitto_mid_generate	libmosquitto/util_mosq.c	/^uint16_t _mosquitto_mid_generate(struct mosquitto *mosq)$/;"	f
+_mosquitto_net_cleanup	libmosquitto/net_mosq.c	/^void _mosquitto_net_cleanup(void)$/;"	f
+_mosquitto_net_init	libmosquitto/net_mosq.c	/^void _mosquitto_net_init(void)$/;"	f
+_mosquitto_net_read	libmosquitto/net_mosq.c	/^ssize_t _mosquitto_net_read(struct mosquitto *mosq, void *buf, size_t count)$/;"	f
+_mosquitto_net_write	libmosquitto/net_mosq.c	/^ssize_t _mosquitto_net_write(struct mosquitto *mosq, void *buf, size_t count)$/;"	f
+_mosquitto_packet	libmosquitto/mosquitto_internal.h	/^struct _mosquitto_packet{$/;"	s
+_mosquitto_packet_alloc	libmosquitto/util_mosq.c	/^int _mosquitto_packet_alloc(struct _mosquitto_packet *packet)$/;"	f
+_mosquitto_packet_cleanup	libmosquitto/net_mosq.c	/^void _mosquitto_packet_cleanup(struct _mosquitto_packet *packet)$/;"	f
+_mosquitto_packet_handle	libmosquitto/read_handle.c	/^int _mosquitto_packet_handle(struct mosquitto *mosq)$/;"	f
+_mosquitto_packet_queue	libmosquitto/net_mosq.c	/^int _mosquitto_packet_queue(struct mosquitto *mosq, struct _mosquitto_packet *packet)$/;"	f
+_mosquitto_packet_read	libmosquitto/net_mosq.c	/^int _mosquitto_packet_read(struct mosquitto_db *db, struct mosquitto *mosq)$/;"	f
+_mosquitto_packet_write	libmosquitto/net_mosq.c	/^int _mosquitto_packet_write(struct mosquitto *mosq)$/;"	f
+_mosquitto_read_byte	libmosquitto/net_mosq.c	/^int _mosquitto_read_byte(struct _mosquitto_packet *packet, uint8_t *byte)$/;"	f
+_mosquitto_read_bytes	libmosquitto/net_mosq.c	/^int _mosquitto_read_bytes(struct _mosquitto_packet *packet, void *bytes, uint32_t count)$/;"	f
+_mosquitto_read_string	libmosquitto/net_mosq.c	/^int _mosquitto_read_string(struct _mosquitto_packet *packet, char **str)$/;"	f
+_mosquitto_read_uint16	libmosquitto/net_mosq.c	/^int _mosquitto_read_uint16(struct _mosquitto_packet *packet, uint16_t *word)$/;"	f
+_mosquitto_realloc	libmosquitto/memory_mosq.c	/^void *_mosquitto_realloc(void *ptr, size_t size)$/;"	f
+_mosquitto_reconnect	libmosquitto/mosquitto.c	/^static int _mosquitto_reconnect(struct mosquitto *mosq, bool blocking)$/;"	f	file:
+_mosquitto_send_command_with_mid	libmosquitto/send_mosq.c	/^int _mosquitto_send_command_with_mid(struct mosquitto *mosq, uint8_t command, uint16_t mid, bool dup)$/;"	f
+_mosquitto_send_connect	libmosquitto/send_client_mosq.c	/^int _mosquitto_send_connect(struct mosquitto *mosq, uint16_t keepalive, bool clean_session)$/;"	f
+_mosquitto_send_disconnect	libmosquitto/send_client_mosq.c	/^int _mosquitto_send_disconnect(struct mosquitto *mosq)$/;"	f
+_mosquitto_send_pingreq	libmosquitto/send_mosq.c	/^int _mosquitto_send_pingreq(struct mosquitto *mosq)$/;"	f
+_mosquitto_send_pingresp	libmosquitto/send_mosq.c	/^int _mosquitto_send_pingresp(struct mosquitto *mosq)$/;"	f
+_mosquitto_send_puback	libmosquitto/send_mosq.c	/^int _mosquitto_send_puback(struct mosquitto *mosq, uint16_t mid)$/;"	f
+_mosquitto_send_pubcomp	libmosquitto/send_mosq.c	/^int _mosquitto_send_pubcomp(struct mosquitto *mosq, uint16_t mid)$/;"	f
+_mosquitto_send_publish	libmosquitto/send_mosq.c	/^int _mosquitto_send_publish(struct mosquitto *mosq, uint16_t mid, const char *topic, uint32_t payloadlen, const void *payload, int qos, bool retain, bool dup)$/;"	f
+_mosquitto_send_pubrec	libmosquitto/send_mosq.c	/^int _mosquitto_send_pubrec(struct mosquitto *mosq, uint16_t mid)$/;"	f
+_mosquitto_send_pubrel	libmosquitto/send_mosq.c	/^int _mosquitto_send_pubrel(struct mosquitto *mosq, uint16_t mid, bool dup)$/;"	f
+_mosquitto_send_real_publish	libmosquitto/send_mosq.c	/^int _mosquitto_send_real_publish(struct mosquitto *mosq, uint16_t mid, const char *topic, uint32_t payloadlen, const void *payload, int qos, bool retain, bool dup)$/;"	f
+_mosquitto_send_simple_command	libmosquitto/send_mosq.c	/^int _mosquitto_send_simple_command(struct mosquitto *mosq, uint8_t command)$/;"	f
+_mosquitto_send_subscribe	libmosquitto/send_client_mosq.c	/^int _mosquitto_send_subscribe(struct mosquitto *mosq, int *mid, bool dup, const char *topic, uint8_t topic_qos)$/;"	f
+_mosquitto_send_unsubscribe	libmosquitto/send_client_mosq.c	/^int _mosquitto_send_unsubscribe(struct mosquitto *mosq, int *mid, bool dup, const char *topic)$/;"	f
+_mosquitto_server_certificate_verify	libmosquitto/tls_mosq.c	/^int _mosquitto_server_certificate_verify(int preverify_ok, X509_STORE_CTX *ctx)$/;"	f
+_mosquitto_socket_close	libmosquitto/net_mosq.c	/^int _mosquitto_socket_close(struct mosquitto *mosq)$/;"	f
+_mosquitto_socket_connect	libmosquitto/net_mosq.c	/^int _mosquitto_socket_connect(struct mosquitto *mosq, const char *host, uint16_t port, const char *bind_address, bool blocking)$/;"	f
+_mosquitto_strdup	libmosquitto/memory_mosq.c	/^char *_mosquitto_strdup(const char *s)$/;"	f
+_mosquitto_thread_main	libmosquitto/thread_mosq.c	/^void *_mosquitto_thread_main(void *obj)$/;"	f
+_mosquitto_topic_wildcard_len_check	libmosquitto/util_mosq.c	/^int _mosquitto_topic_wildcard_len_check(const char *str)$/;"	f
+_mosquitto_try_connect	libmosquitto/net_mosq.c	/^int _mosquitto_try_connect(const char *host, uint16_t port, int *sock, const char *bind_address, bool blocking)$/;"	f
+_mosquitto_verify_certificate_hostname	libmosquitto/tls_mosq.c	/^int _mosquitto_verify_certificate_hostname(X509 *cert, const char *hostname)$/;"	f
+_mosquitto_will_clear	libmosquitto/will_mosq.c	/^int _mosquitto_will_clear(struct mosquitto *mosq)$/;"	f
+_mosquitto_will_set	libmosquitto/will_mosq.c	/^int _mosquitto_will_set(struct mosquitto *mosq, const char *topic, int payloadlen, const void *payload, int qos, bool retain)$/;"	f
+_mosquitto_write_byte	libmosquitto/net_mosq.c	/^void _mosquitto_write_byte(struct _mosquitto_packet *packet, uint8_t byte)$/;"	f
+_mosquitto_write_bytes	libmosquitto/net_mosq.c	/^void _mosquitto_write_bytes(struct _mosquitto_packet *packet, const void *bytes, uint32_t count)$/;"	f
+_mosquitto_write_string	libmosquitto/net_mosq.c	/^void _mosquitto_write_string(struct _mosquitto_packet *packet, const char *str, uint16_t length)$/;"	f
+_mosquitto_write_uint16	libmosquitto/net_mosq.c	/^void _mosquitto_write_uint16(struct _mosquitto_packet *packet, uint16_t word)$/;"	f
+_windows_time_version_check	libmosquitto/time_mosq.c	/^void _windows_time_version_check(void)$/;"	f
+acl_list	libmosquitto/mosquitto_internal.h	/^	struct _mosquitto_acl_user *acl_list;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::_mosquitto_acl_user
+address	GCDAsyncUdpSocket.h	/^typedef BOOL (^GCDAsyncUdpSocketReceiveFilterBlock)(NSData *data, NSData *address, id *context);$/;"	v
+address	GCDAsyncUdpSocket.h	/^typedef BOOL (^GCDAsyncUdpSocketSendFilterBlock)(NSData *data, NSData *address, long tag);$/;"	v
+address	libmosquitto/mosquitto_internal.h	/^	char *address;$/;"	m	struct:mosquitto
+alternateAddressDelay	GCDAsyncSocket.h	/^@property (atomic, assign, readwrite) NSTimeInterval alternateAddressDelay;$/;"	v
+autoDisconnectOnClosedReadStream	GCDAsyncSocket.h	/^@property (atomic, assign, readwrite) BOOL autoDisconnectOnClosedReadStream;$/;"	v
+bind_address	libmosquitto/mosquitto_internal.h	/^	char *bind_address;$/;"	m	struct:mosquitto
+bool	libmosquitto/mosquitto.h	/^#		define bool /;"	d
+bridge	libmosquitto/mosquitto_internal.h	/^	struct _mqtt3_bridge *bridge;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::_mqtt3_bridge
+callback_mutex	libmosquitto/mosquitto_internal.h	/^	pthread_mutex_t callback_mutex;$/;"	m	struct:mosquitto
+canReconnect	ZBSocketManager.h	/^@property (nonatomic ,assign) BOOL canReconnect;$/;"	v
+cleanSession	MQTTKit.h	/^@property (readwrite, assign) BOOL cleanSession;$/;"	v
+clean_session	libmosquitto/mosquitto_internal.h	/^	bool clean_session;$/;"	m	struct:mosquitto
+clientID	MQTTKit.h	/^@property (readwrite, copy) NSString *clientID;$/;"	v
+code	MQTTKit.h	/^typedef void (^MQTTDisconnectionHandler)(NSUInteger code);$/;"	v
+command	libmosquitto/mosquitto_internal.h	/^	uint8_t command;$/;"	m	struct:_mosquitto_packet
+connectTimeout	ZBSocketManager.h	/^@property (nonatomic ,assign) NSTimeInterval connectTimeout;$/;"	v
+connected	MQTTKit.h	/^@property (readonly, assign) BOOL connected;$/;"	v
+connectedAddress	GCDAsyncSocket.h	/^@property (atomic, readonly) NSData *connectedAddress;$/;"	v
+connectedHost	GCDAsyncSocket.h	/^@property (atomic, readonly) NSString *connectedHost;$/;"	v
+connectedPort	GCDAsyncSocket.h	/^@property (atomic, readonly) uint16_t  connectedPort;$/;"	v
+connectedUrl	GCDAsyncSocket.h	/^@property (atomic, readonly) NSURL    *connectedUrl;$/;"	v
+context	GCDAsyncUdpSocket.h	/^typedef BOOL (^GCDAsyncUdpSocketReceiveFilterBlock)(NSData *data, NSData *address, id *context);$/;"	v
+current_out_packet	libmosquitto/mosquitto_internal.h	/^	struct _mosquitto_packet *current_out_packet;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::_mosquitto_packet
+current_out_packet_mutex	libmosquitto/mosquitto_internal.h	/^	pthread_mutex_t current_out_packet_mutex;$/;"	m	struct:mosquitto
+data	GCDAsyncUdpSocket.h	/^typedef BOOL (^GCDAsyncUdpSocketReceiveFilterBlock)(NSData *data, NSData *address, id *context);$/;"	v
+data	GCDAsyncUdpSocket.h	/^typedef BOOL (^GCDAsyncUdpSocketSendFilterBlock)(NSData *data, NSData *address, long tag);$/;"	v
+db_index	libmosquitto/mosquitto_internal.h	/^	int db_index;$/;"	m	struct:mosquitto
+delegate	GCDAsyncSocket.h	/^@property (atomic, weak, readwrite) id delegate;$/;"	v
+delegateQueue	GCDAsyncSocket.h	/^@property (atomic, assign, readwrite) dispatch_queue_t delegateQueue;$/;"	v
+delegateQueue	GCDAsyncSocket.h	/^@property (atomic, strong, readwrite) dispatch_queue_t delegateQueue;$/;"	v
+direction	libmosquitto/mosquitto_internal.h	/^	enum mosquitto_msg_direction direction;$/;"	m	struct:mosquitto_message_all	typeref:enum:mosquitto_message_all::mosquitto_msg_direction
+disconnect_t	libmosquitto/mosquitto_internal.h	/^	time_t disconnect_t;$/;"	m	struct:mosquitto
+disconnectionHandler	MQTTKit.h	/^@property (nonatomic, copy) MQTTDisconnectionHandler disconnectionHandler;$/;"	v
+dup	libmosquitto/mosquitto_internal.h	/^	bool dup;$/;"	m	struct:mosquitto_message_all
+false	libmosquitto/mosquitto.h	/^#		define false /;"	d
+grantedQos	MQTTKit.h	/^typedef void (^MQTTSubscriptionCompletionHandler)(NSArray *grantedQos);$/;"	v
+have_remaining	libmosquitto/mosquitto_internal.h	/^	uint8_t have_remaining;$/;"	m	struct:_mosquitto_packet
+host	MQTTKit.h	/^@property (readwrite, copy) NSString *host;$/;"	v
+host	libmosquitto/mosquitto_internal.h	/^	char *host;$/;"	m	struct:mosquitto
+id	libmosquitto/mosquitto_internal.h	/^	char *id;$/;"	m	struct:mosquitto
+in_callback	libmosquitto/mosquitto_internal.h	/^	bool in_callback;$/;"	m	struct:mosquitto
+in_packet	libmosquitto/mosquitto_internal.h	/^	struct _mosquitto_packet in_packet;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::_mosquitto_packet
+inflight_messages	libmosquitto/mosquitto_internal.h	/^	int inflight_messages;$/;"	m	struct:mosquitto
+initialize	MQTTKit.h	/^+ (void) initialize;$/;"	v
+isConnected	GCDAsyncSocket.h	/^@property (atomic, readonly) BOOL isConnected;$/;"	v
+isDisconnected	GCDAsyncSocket.h	/^@property (atomic, readonly) BOOL isDisconnected;$/;"	v
+isIPv4	GCDAsyncSocket.h	/^@property (atomic, readonly) BOOL isIPv4;$/;"	v
+isIPv6	GCDAsyncSocket.h	/^@property (atomic, readonly) BOOL isIPv6;$/;"	v
+isSecure	GCDAsyncSocket.h	/^@property (atomic, readonly) BOOL isSecure;$/;"	v
+is_bridge	libmosquitto/mosquitto_internal.h	/^	bool is_bridge;$/;"	m	struct:mosquitto
+keepAlive	MQTTKit.h	/^@property (readwrite, assign) unsigned short keepAlive;$/;"	v
+keepalive	libmosquitto/mosquitto_internal.h	/^	uint16_t keepalive;$/;"	m	struct:mosquitto
+last_mid	libmosquitto/mosquitto_internal.h	/^	uint16_t last_mid;$/;"	m	struct:mosquitto
+last_msg_in	libmosquitto/mosquitto_internal.h	/^	time_t last_msg_in;$/;"	m	struct:mosquitto
+last_msg_out	libmosquitto/mosquitto_internal.h	/^	time_t last_msg_out;$/;"	m	struct:mosquitto
+last_retry_check	libmosquitto/mosquitto_internal.h	/^	time_t last_retry_check;$/;"	m	struct:mosquitto
+libmosq_EXPORT	libmosquitto/mosquitto.h	/^#		define libmosq_EXPORT /;"	d
+libmosq_EXPORT	libmosquitto/mosquitto.h	/^#	define libmosq_EXPORT$/;"	d
+listener	libmosquitto/mosquitto_internal.h	/^	struct _mqtt3_listener *listener;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::_mqtt3_listener
+localAddress	GCDAsyncSocket.h	/^@property (atomic, readonly) NSData *localAddress;$/;"	v
+localHost	GCDAsyncSocket.h	/^@property (atomic, readonly) NSString *localHost;$/;"	v
+localPort	GCDAsyncSocket.h	/^@property (atomic, readonly) uint16_t  localPort;$/;"	v
+log_callback_mutex	libmosquitto/mosquitto_internal.h	/^	pthread_mutex_t log_callback_mutex;$/;"	m	struct:mosquitto
+malloc_usable_size	libmosquitto/memory_mosq.c	/^#    define malloc_usable_size /;"	d	file:
+max_inflight_messages	libmosquitto/mosquitto_internal.h	/^	int max_inflight_messages;$/;"	m	struct:mosquitto
+max_memcount	libmosquitto/memory_mosq.c	/^static unsigned long max_memcount = 0;$/;"	v	file:
+memcount	libmosquitto/memory_mosq.c	/^static unsigned long memcount = 0;$/;"	v	file:
+message	MQTTKit.h	/^typedef void (^MQTTMessageHandler)(MQTTMessage *message);$/;"	v
+messageHandler	MQTTKit.h	/^@property (nonatomic, copy) MQTTMessageHandler messageHandler;$/;"	v
+message_mutex	libmosquitto/mosquitto_internal.h	/^	pthread_mutex_t message_mutex;$/;"	m	struct:mosquitto
+message_retry	libmosquitto/mosquitto_internal.h	/^	unsigned int message_retry;$/;"	m	struct:mosquitto
+messages	libmosquitto/mosquitto_internal.h	/^	struct mosquitto_message_all *messages;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::mosquitto_message_all
+messages_last	libmosquitto/mosquitto_internal.h	/^	struct mosquitto_message_all *messages_last;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::mosquitto_message_all
+mid	MQTTKit.h	/^@property (readonly, assign) unsigned short mid;$/;"	v
+mid	libmosquitto/mosquitto.h	/^	int mid;$/;"	m	struct:mosquitto_message
+mid	libmosquitto/mosquitto_internal.h	/^	uint16_t mid;$/;"	m	struct:_mosquitto_packet
+mosq_cs_connect_async	libmosquitto/mosquitto_internal.h	/^	mosq_cs_connect_async = 3,$/;"	e	enum:mosquitto_client_state
+mosq_cs_connect_pending	libmosquitto/mosquitto_internal.h	/^	mosq_cs_connect_pending = 4$/;"	e	enum:mosquitto_client_state
+mosq_cs_connected	libmosquitto/mosquitto_internal.h	/^	mosq_cs_connected = 1,$/;"	e	enum:mosquitto_client_state
+mosq_cs_disconnecting	libmosquitto/mosquitto_internal.h	/^	mosq_cs_disconnecting = 2,$/;"	e	enum:mosquitto_client_state
+mosq_cs_new	libmosquitto/mosquitto_internal.h	/^	mosq_cs_new = 0,$/;"	e	enum:mosquitto_client_state
+mosq_err_t	libmosquitto/mosquitto.h	/^enum mosq_err_t {$/;"	g
+mosq_md_in	libmosquitto/mosquitto_internal.h	/^	mosq_md_in = 0,$/;"	e	enum:mosquitto_msg_direction
+mosq_md_out	libmosquitto/mosquitto_internal.h	/^	mosq_md_out = 1$/;"	e	enum:mosquitto_msg_direction
+mosq_ms_invalid	libmosquitto/mosquitto_internal.h	/^	mosq_ms_invalid = 0,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_publish_qos0	libmosquitto/mosquitto_internal.h	/^	mosq_ms_publish_qos0 = 1,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_publish_qos1	libmosquitto/mosquitto_internal.h	/^	mosq_ms_publish_qos1 = 2,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_publish_qos2	libmosquitto/mosquitto_internal.h	/^	mosq_ms_publish_qos2 = 4,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_queued	libmosquitto/mosquitto_internal.h	/^	mosq_ms_queued = 11$/;"	e	enum:mosquitto_msg_state
+mosq_ms_resend_pubcomp	libmosquitto/mosquitto_internal.h	/^	mosq_ms_resend_pubcomp = 8,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_resend_pubrel	libmosquitto/mosquitto_internal.h	/^	mosq_ms_resend_pubrel = 6,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_send_pubrec	libmosquitto/mosquitto_internal.h	/^	mosq_ms_send_pubrec = 10,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_wait_for_puback	libmosquitto/mosquitto_internal.h	/^	mosq_ms_wait_for_puback = 3,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_wait_for_pubcomp	libmosquitto/mosquitto_internal.h	/^	mosq_ms_wait_for_pubcomp = 9,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_wait_for_pubrec	libmosquitto/mosquitto_internal.h	/^	mosq_ms_wait_for_pubrec = 5,$/;"	e	enum:mosquitto_msg_state
+mosq_ms_wait_for_pubrel	libmosquitto/mosquitto_internal.h	/^	mosq_ms_wait_for_pubrel = 7,$/;"	e	enum:mosquitto_msg_state
+mosquitto	libmosquitto/mosquitto_internal.h	/^struct mosquitto {$/;"	s
+mosquitto_client_state	libmosquitto/mosquitto_internal.h	/^enum mosquitto_client_state {$/;"	g
+mosquitto_connack_string	libmosquitto/mosquitto.c	/^const char *mosquitto_connack_string(int connack_code)$/;"	f
+mosquitto_connect	libmosquitto/mosquitto.c	/^int mosquitto_connect(struct mosquitto *mosq, const char *host, int port, int keepalive)$/;"	f
+mosquitto_connect_async	libmosquitto/mosquitto.c	/^int mosquitto_connect_async(struct mosquitto *mosq, const char *host, int port, int keepalive)$/;"	f
+mosquitto_connect_bind	libmosquitto/mosquitto.c	/^int mosquitto_connect_bind(struct mosquitto *mosq, const char *host, int port, int keepalive, const char *bind_address)$/;"	f
+mosquitto_connect_bind_async	libmosquitto/mosquitto.c	/^int mosquitto_connect_bind_async(struct mosquitto *mosq, const char *host, int port, int keepalive, const char *bind_address)$/;"	f
+mosquitto_connect_callback_set	libmosquitto/mosquitto.c	/^void mosquitto_connect_callback_set(struct mosquitto *mosq, void (*on_connect)(struct mosquitto *, void *, int))$/;"	f
+mosquitto_destroy	libmosquitto/mosquitto.c	/^void mosquitto_destroy(struct mosquitto *mosq)$/;"	f
+mosquitto_disconnect	libmosquitto/mosquitto.c	/^int mosquitto_disconnect(struct mosquitto *mosq)$/;"	f
+mosquitto_disconnect_callback_set	libmosquitto/mosquitto.c	/^void mosquitto_disconnect_callback_set(struct mosquitto *mosq, void (*on_disconnect)(struct mosquitto *, void *, int))$/;"	f
+mosquitto_lib_cleanup	libmosquitto/mosquitto.c	/^int mosquitto_lib_cleanup(void)$/;"	f
+mosquitto_lib_init	libmosquitto/mosquitto.c	/^int mosquitto_lib_init(void)$/;"	f
+mosquitto_lib_version	libmosquitto/mosquitto.c	/^int mosquitto_lib_version(int *major, int *minor, int *revision)$/;"	f
+mosquitto_log_callback_set	libmosquitto/mosquitto.c	/^void mosquitto_log_callback_set(struct mosquitto *mosq, void (*on_log)(struct mosquitto *, void *, int, const char *))$/;"	f
+mosquitto_loop	libmosquitto/mosquitto.c	/^int mosquitto_loop(struct mosquitto *mosq, int timeout, int max_packets)$/;"	f
+mosquitto_loop_forever	libmosquitto/mosquitto.c	/^int mosquitto_loop_forever(struct mosquitto *mosq, int timeout, int max_packets)$/;"	f
+mosquitto_loop_misc	libmosquitto/mosquitto.c	/^int mosquitto_loop_misc(struct mosquitto *mosq)$/;"	f
+mosquitto_loop_read	libmosquitto/mosquitto.c	/^int mosquitto_loop_read(struct mosquitto *mosq, int max_packets)$/;"	f
+mosquitto_loop_start	libmosquitto/thread_mosq.c	/^int mosquitto_loop_start(struct mosquitto *mosq)$/;"	f
+mosquitto_loop_stop	libmosquitto/thread_mosq.c	/^int mosquitto_loop_stop(struct mosquitto *mosq, bool force)$/;"	f
+mosquitto_loop_write	libmosquitto/mosquitto.c	/^int mosquitto_loop_write(struct mosquitto *mosq, int max_packets)$/;"	f
+mosquitto_max_inflight_messages_set	libmosquitto/messages_mosq.c	/^int mosquitto_max_inflight_messages_set(struct mosquitto *mosq, unsigned int max_inflight_messages)$/;"	f
+mosquitto_message	libmosquitto/mosquitto.h	/^struct mosquitto_message{$/;"	s
+mosquitto_message_all	libmosquitto/mosquitto_internal.h	/^struct mosquitto_message_all{$/;"	s
+mosquitto_message_callback_set	libmosquitto/mosquitto.c	/^void mosquitto_message_callback_set(struct mosquitto *mosq, void (*on_message)(struct mosquitto *, void *, const struct mosquitto_message *))$/;"	f
+mosquitto_message_copy	libmosquitto/messages_mosq.c	/^int mosquitto_message_copy(struct mosquitto_message *dst, const struct mosquitto_message *src)$/;"	f
+mosquitto_message_free	libmosquitto/messages_mosq.c	/^void mosquitto_message_free(struct mosquitto_message **message)$/;"	f
+mosquitto_message_retry_set	libmosquitto/messages_mosq.c	/^void mosquitto_message_retry_set(struct mosquitto *mosq, unsigned int message_retry)$/;"	f
+mosquitto_msg_direction	libmosquitto/mosquitto_internal.h	/^enum mosquitto_msg_direction {$/;"	g
+mosquitto_msg_state	libmosquitto/mosquitto_internal.h	/^enum mosquitto_msg_state {$/;"	g
+mosquitto_new	libmosquitto/mosquitto.c	/^struct mosquitto *mosquitto_new(const char *id, bool clean_session, void *userdata)$/;"	f
+mosquitto_publish	libmosquitto/mosquitto.c	/^int mosquitto_publish(struct mosquitto *mosq, int *mid, const char *topic, int payloadlen, const void *payload, int qos, bool retain)$/;"	f
+mosquitto_publish_callback_set	libmosquitto/mosquitto.c	/^void mosquitto_publish_callback_set(struct mosquitto *mosq, void (*on_publish)(struct mosquitto *, void *, int))$/;"	f
+mosquitto_reconnect	libmosquitto/mosquitto.c	/^int mosquitto_reconnect(struct mosquitto *mosq)$/;"	f
+mosquitto_reconnect_async	libmosquitto/mosquitto.c	/^int mosquitto_reconnect_async(struct mosquitto *mosq)$/;"	f
+mosquitto_reconnect_delay_set	libmosquitto/mosquitto.c	/^int mosquitto_reconnect_delay_set(struct mosquitto *mosq, unsigned int reconnect_delay, unsigned int reconnect_delay_max, bool reconnect_exponential_backoff)$/;"	f
+mosquitto_reinitialise	libmosquitto/mosquitto.c	/^int mosquitto_reinitialise(struct mosquitto *mosq, const char *id, bool clean_session, void *userdata)$/;"	f
+mosquitto_socket	libmosquitto/mosquitto.c	/^int mosquitto_socket(struct mosquitto *mosq)$/;"	f
+mosquitto_strerror	libmosquitto/mosquitto.c	/^const char *mosquitto_strerror(int mosq_errno)$/;"	f
+mosquitto_sub_topic_tokenise	libmosquitto/mosquitto.c	/^int mosquitto_sub_topic_tokenise(const char *subtopic, char ***topics, int *count)$/;"	f
+mosquitto_sub_topic_tokens_free	libmosquitto/mosquitto.c	/^int mosquitto_sub_topic_tokens_free(char ***topics, int count)$/;"	f
+mosquitto_subscribe	libmosquitto/mosquitto.c	/^int mosquitto_subscribe(struct mosquitto *mosq, int *mid, const char *sub, int qos)$/;"	f
+mosquitto_subscribe_callback_set	libmosquitto/mosquitto.c	/^void mosquitto_subscribe_callback_set(struct mosquitto *mosq, void (*on_subscribe)(struct mosquitto *, void *, int, int, const int *))$/;"	f
+mosquitto_time	libmosquitto/time_mosq.c	/^time_t mosquitto_time(void)$/;"	f
+mosquitto_tls_insecure_set	libmosquitto/mosquitto.c	/^int mosquitto_tls_insecure_set(struct mosquitto *mosq, bool value)$/;"	f
+mosquitto_tls_opts_set	libmosquitto/mosquitto.c	/^int mosquitto_tls_opts_set(struct mosquitto *mosq, int cert_reqs, const char *tls_version, const char *ciphers)$/;"	f
+mosquitto_tls_psk_set	libmosquitto/mosquitto.c	/^int mosquitto_tls_psk_set(struct mosquitto *mosq, const char *psk, const char *identity, const char *ciphers)$/;"	f
+mosquitto_tls_set	libmosquitto/mosquitto.c	/^int mosquitto_tls_set(struct mosquitto *mosq, const char *cafile, const char *capath, const char *certfile, const char *keyfile, int (*pw_callback)(char *buf, int size, int rwflag, void *userdata))$/;"	f
+mosquitto_topic_matches_sub	libmosquitto/util_mosq.c	/^int mosquitto_topic_matches_sub(const char *sub, const char *topic, bool *result)$/;"	f
+mosquitto_unsubscribe	libmosquitto/mosquitto.c	/^int mosquitto_unsubscribe(struct mosquitto *mosq, int *mid, const char *sub)$/;"	f
+mosquitto_unsubscribe_callback_set	libmosquitto/mosquitto.c	/^void mosquitto_unsubscribe_callback_set(struct mosquitto *mosq, void (*on_unsubscribe)(struct mosquitto *, void *, int))$/;"	f
+mosquitto_user_data_set	libmosquitto/mosquitto.c	/^void mosquitto_user_data_set(struct mosquitto *mosq, void *userdata)$/;"	f
+mosquitto_username_pw_set	libmosquitto/mosquitto.c	/^int mosquitto_username_pw_set(struct mosquitto *mosq, const char *username, const char *password)$/;"	f
+mosquitto_want_write	libmosquitto/mosquitto.c	/^bool mosquitto_want_write(struct mosquitto *mosq)$/;"	f
+mosquitto_will_clear	libmosquitto/mosquitto.c	/^int mosquitto_will_clear(struct mosquitto *mosq)$/;"	f
+mosquitto_will_set	libmosquitto/mosquitto.c	/^int mosquitto_will_set(struct mosquitto *mosq, const char *topic, int payloadlen, const void *payload, int qos, bool retain)$/;"	f
+msg	libmosquitto/mosquitto_internal.h	/^	struct mosquitto_message msg;$/;"	m	struct:mosquitto_message_all	typeref:struct:mosquitto_message_all::mosquitto_message
+msgs	libmosquitto/mosquitto_internal.h	/^	struct mosquitto_client_msg *msgs;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::mosquitto_client_msg
+msgtime_mutex	libmosquitto/mosquitto_internal.h	/^	pthread_mutex_t msgtime_mutex;$/;"	m	struct:mosquitto
+next	libmosquitto/mosquitto_internal.h	/^	struct _mosquitto_packet *next;$/;"	m	struct:_mosquitto_packet	typeref:struct:_mosquitto_packet::_mosquitto_packet
+next	libmosquitto/mosquitto_internal.h	/^	struct mosquitto_message_all *next;$/;"	m	struct:mosquitto_message_all	typeref:struct:mosquitto_message_all::mosquitto_message_all
+on_connect	libmosquitto/mosquitto_internal.h	/^	void (*on_connect)(struct mosquitto *, void *userdata, int rc);$/;"	m	struct:mosquitto
+on_disconnect	libmosquitto/mosquitto_internal.h	/^	void (*on_disconnect)(struct mosquitto *, void *userdata, int rc);$/;"	m	struct:mosquitto
+on_log	libmosquitto/mosquitto_internal.h	/^	void (*on_log)(struct mosquitto *, void *userdata, int level, const char *str);$/;"	m	struct:mosquitto
+on_message	libmosquitto/mosquitto_internal.h	/^	void (*on_message)(struct mosquitto *, void *userdata, const struct mosquitto_message *message);$/;"	m	struct:mosquitto
+on_publish	libmosquitto/mosquitto_internal.h	/^	void (*on_publish)(struct mosquitto *, void *userdata, int mid);$/;"	m	struct:mosquitto
+on_subscribe	libmosquitto/mosquitto_internal.h	/^	void (*on_subscribe)(struct mosquitto *, void *userdata, int mid, int qos_count, const int *granted_qos);$/;"	m	struct:mosquitto
+on_unsubscribe	libmosquitto/mosquitto_internal.h	/^	void (*on_unsubscribe)(struct mosquitto *, void *userdata, int mid);$/;"	m	struct:mosquitto
+out_packet	libmosquitto/mosquitto_internal.h	/^	struct _mosquitto_packet *out_packet;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::_mosquitto_packet
+out_packet_last	libmosquitto/mosquitto_internal.h	/^	struct _mosquitto_packet *out_packet_last;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::_mosquitto_packet
+out_packet_mutex	libmosquitto/mosquitto_internal.h	/^	pthread_mutex_t out_packet_mutex;$/;"	m	struct:mosquitto
+packet_length	libmosquitto/mosquitto_internal.h	/^	uint32_t packet_length;$/;"	m	struct:_mosquitto_packet
+password	MQTTKit.h	/^@property (readwrite, copy) NSString *password;$/;"	v
+password	libmosquitto/mosquitto_internal.h	/^	char *password;$/;"	m	struct:mosquitto
+payload	MQTTKit.h	/^@property (readonly, copy) NSData *payload;$/;"	v
+payload	libmosquitto/mosquitto.h	/^	void *payload;$/;"	m	struct:mosquitto_message
+payload	libmosquitto/mosquitto_internal.h	/^	uint8_t *payload;$/;"	m	struct:_mosquitto_packet
+payloadlen	libmosquitto/mosquitto.h	/^	int payloadlen;$/;"	m	struct:mosquitto_message
+ping_t	libmosquitto/mosquitto_internal.h	/^	time_t ping_t;$/;"	m	struct:mosquitto
+pollfd_index	libmosquitto/mosquitto_internal.h	/^	int pollfd_index;$/;"	m	struct:mosquitto
+port	MQTTKit.h	/^@property (readwrite, assign) unsigned short port;$/;"	v
+port	libmosquitto/mosquitto_internal.h	/^	int port;$/;"	m	struct:mosquitto
+pos	libmosquitto/mosquitto_internal.h	/^	uint32_t pos;$/;"	m	struct:_mosquitto_packet
+psk_client_callback	libmosquitto/net_mosq.c	/^static unsigned int psk_client_callback(SSL *ssl, const char *hint,$/;"	f	file:
+pthread_cancel	libmosquitto/dummypthread.h	/^#define pthread_cancel(/;"	d
+pthread_create	libmosquitto/dummypthread.h	/^#define pthread_create(/;"	d
+pthread_join	libmosquitto/dummypthread.h	/^#define pthread_join(/;"	d
+pthread_mutex_destroy	libmosquitto/dummypthread.h	/^#define pthread_mutex_destroy(/;"	d
+pthread_mutex_init	libmosquitto/dummypthread.h	/^#define pthread_mutex_init(/;"	d
+pthread_mutex_lock	libmosquitto/dummypthread.h	/^#define pthread_mutex_lock(/;"	d
+pthread_mutex_unlock	libmosquitto/dummypthread.h	/^#define pthread_mutex_unlock(/;"	d
+qos	libmosquitto/mosquitto.h	/^	int qos;$/;"	m	struct:mosquitto_message
+queue_len	libmosquitto/mosquitto_internal.h	/^	int queue_len;$/;"	m	struct:mosquitto
+reconnectDelay	MQTTKit.h	/^@property (readwrite, assign) unsigned int reconnectDelay; \/\/ in seconds (default is 1)$/;"	v
+reconnectDelayMax	MQTTKit.h	/^@property (readwrite, assign) unsigned int reconnectDelayMax; \/\/ in seconds (default is 1)$/;"	v
+reconnectExponentialBackoff	MQTTKit.h	/^@property (readwrite, assign) BOOL reconnectExponentialBackoff; \/\/ wheter to backoff exponentially the reconnect attempts (default is NO)$/;"	v
+reconnect_delay	libmosquitto/mosquitto_internal.h	/^	unsigned int reconnect_delay;$/;"	m	struct:mosquitto
+reconnect_delay_max	libmosquitto/mosquitto_internal.h	/^	unsigned int reconnect_delay_max;$/;"	m	struct:mosquitto
+reconnect_exponential_backoff	libmosquitto/mosquitto_internal.h	/^	bool reconnect_exponential_backoff;$/;"	m	struct:mosquitto
+remaining_count	libmosquitto/mosquitto_internal.h	/^	uint8_t remaining_count;$/;"	m	struct:_mosquitto_packet
+remaining_length	libmosquitto/mosquitto_internal.h	/^	uint32_t remaining_length;$/;"	m	struct:_mosquitto_packet
+remaining_mult	libmosquitto/mosquitto_internal.h	/^	uint32_t remaining_mult;$/;"	m	struct:_mosquitto_packet
+retain	libmosquitto/mosquitto.h	/^	bool retain;$/;"	m	struct:mosquitto_message
+retained	MQTTKit.h	/^@property (readonly, assign) BOOL retained;$/;"	v
+shareInstance	MQTTManager.h	/^+(id) shareInstance;$/;"	v
+snprintf	libmosquitto/config.h	/^#define snprintf /;"	d
+sock	libmosquitto/mosquitto_internal.h	/^	int sock;$/;"	m	struct:mosquitto
+ssize_t	libmosquitto/mosquitto.c	/^typedef int ssize_t;$/;"	t	file:
+ssize_t	libmosquitto/net_mosq.h	/^typedef int ssize_t;$/;"	t
+ssize_t	libmosquitto/will_mosq.c	/^typedef int ssize_t;$/;"	t	file:
+ssl	libmosquitto/mosquitto_internal.h	/^	SSL *ssl;$/;"	m	struct:mosquitto
+ssl_ctx	libmosquitto/mosquitto_internal.h	/^	SSL_CTX *ssl_ctx;$/;"	m	struct:mosquitto
+state	libmosquitto/mosquitto_internal.h	/^	enum mosquitto_client_state state;$/;"	m	struct:mosquitto	typeref:enum:mosquitto::mosquitto_client_state
+state	libmosquitto/mosquitto_internal.h	/^	enum mosquitto_msg_state state;$/;"	m	struct:mosquitto_message_all	typeref:enum:mosquitto_message_all::mosquitto_msg_state
+state_mutex	libmosquitto/mosquitto_internal.h	/^	pthread_mutex_t state_mutex;$/;"	m	struct:mosquitto
+strcasecmp	libmosquitto/config.h	/^#define strcasecmp /;"	d
+strerror_r	libmosquitto/config.h	/^#define strerror_r(/;"	d
+strtok_r	libmosquitto/config.h	/^#define strtok_r /;"	d
+tag	GCDAsyncUdpSocket.h	/^typedef BOOL (^GCDAsyncUdpSocketSendFilterBlock)(NSData *data, NSData *address, long tag);$/;"	v
+thread_id	libmosquitto/mosquitto_internal.h	/^	pthread_t thread_id;$/;"	m	struct:mosquitto
+threaded	libmosquitto/mosquitto_internal.h	/^	bool threaded;$/;"	m	struct:mosquitto
+tick64	libmosquitto/time_mosq.c	/^static bool tick64 = false;$/;"	v	file:
+timestamp	libmosquitto/mosquitto_internal.h	/^	time_t timestamp;$/;"	m	struct:mosquitto_message_all
+tls_cafile	libmosquitto/mosquitto_internal.h	/^	char *tls_cafile;$/;"	m	struct:mosquitto
+tls_capath	libmosquitto/mosquitto_internal.h	/^	char *tls_capath;$/;"	m	struct:mosquitto
+tls_cert_reqs	libmosquitto/mosquitto_internal.h	/^	int tls_cert_reqs;$/;"	m	struct:mosquitto
+tls_certfile	libmosquitto/mosquitto_internal.h	/^	char *tls_certfile;$/;"	m	struct:mosquitto
+tls_ciphers	libmosquitto/mosquitto_internal.h	/^	char *tls_ciphers;$/;"	m	struct:mosquitto
+tls_ex_index_mosq	libmosquitto/net_mosq.c	/^int tls_ex_index_mosq = -1;$/;"	v
+tls_insecure	libmosquitto/mosquitto_internal.h	/^	bool tls_insecure;$/;"	m	struct:mosquitto
+tls_keyfile	libmosquitto/mosquitto_internal.h	/^	char *tls_keyfile;$/;"	m	struct:mosquitto
+tls_psk	libmosquitto/mosquitto_internal.h	/^	char *tls_psk;$/;"	m	struct:mosquitto
+tls_psk_identity	libmosquitto/mosquitto_internal.h	/^	char *tls_psk_identity;$/;"	m	struct:mosquitto
+tls_pw_callback	libmosquitto/mosquitto_internal.h	/^	int (*tls_pw_callback)(char *buf, int size, int rwflag, void *userdata);$/;"	m	struct:mosquitto
+tls_version	libmosquitto/mosquitto_internal.h	/^	char *tls_version;$/;"	m	struct:mosquitto
+to_process	libmosquitto/mosquitto_internal.h	/^	uint32_t to_process;$/;"	m	struct:_mosquitto_packet
+topic	MQTTKit.h	/^@property (readonly, copy) NSString *topic;$/;"	v
+topic	libmosquitto/mosquitto.h	/^	char *topic;$/;"	m	struct:mosquitto_message
+true	libmosquitto/mosquitto.h	/^#		define true /;"	d
+uint16_t	libmosquitto/mosquitto_internal.h	/^		typedef unsigned short uint16_t;$/;"	t
+uint32_t	libmosquitto/mosquitto_internal.h	/^		typedef unsigned int uint32_t;$/;"	t
+uint64_t	libmosquitto/mosquitto_internal.h	/^		typedef unsigned long long uint64_t;$/;"	t
+uint8_t	libmosquitto/mosquitto_internal.h	/^		typedef unsigned char uint8_t;$/;"	t
+userData	GCDAsyncSocket.h	/^@property (atomic, strong, readwrite) id userData;$/;"	v
+userdata	libmosquitto/mosquitto_internal.h	/^	void *userdata;$/;"	m	struct:mosquitto
+username	MQTTKit.h	/^@property (readwrite, copy) NSString *username;$/;"	v
+username	libmosquitto/mosquitto_internal.h	/^	char *username;$/;"	m	struct:mosquitto
+version	MQTTKit.h	/^+ (NSString*) version;$/;"	v
+want_write	libmosquitto/mosquitto_internal.h	/^	bool want_write;$/;"	m	struct:mosquitto
+will	libmosquitto/mosquitto_internal.h	/^	struct mosquitto_message *will;$/;"	m	struct:mosquitto	typeref:struct:mosquitto::mosquitto_message
+window	FirstIMAPP/AppDelegate.h	/^@property (strong, nonatomic) UIWindow *window;$/;"	v
